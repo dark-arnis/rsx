@@ -1,0 +1,13 @@
+[package]
+name = "rsx"
+version = "0.1.0"
+authors = ["Victor Porof <victor.porof@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.3.15"
+regex = "0.2.2"
+rsx-dom = { git = "https://github.com/victorporof/rsx-dom.git", default-features = false, features = ["rsx-parse"] }
+rsx-stylesheet = { git = "https://github.com/victorporof/rsx-stylesheet.git", default-features = false, features = ["css-parse"] }
