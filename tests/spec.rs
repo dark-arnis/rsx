@@ -14,6 +14,7 @@ specific language governing permissions and limitations under the License.
 
 extern crate rsx;
 extern crate rsx_dom;
+extern crate rsx_shared;
 extern crate rsx_stylesheet;
 
 use rsx::css;
